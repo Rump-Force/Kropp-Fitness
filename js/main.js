@@ -32,17 +32,17 @@ closeBtn.addEventListener('click', () => {
 	modal.classList.remove('show')
 })
 
-// document.querySelector('.join-us-video-play-button').addEventListener('click', function () {
-// 	const video = document.querySelector('.join-video')
+document.querySelector('.join-us-video-play-button').addEventListener('click', function () {
+	const video = document.querySelector('.join-us-video')
 
-// 	// Путь к вашему локальному видеофайлу в папке 'videos'
-// 	const videoUrl = './videos/example.mp4' // Убедитесь, что путь правильный
+	// Путь к вашему локальному видеофайлу в папке 'videos'
+	const videoUrl = './videos/example.mp4' // Убедитесь, что путь правильный
 
-// 	// Устанавливаем источник для видео
-// 	video.src = videoUrl
-// 	video.load() // Загружаем видео
-// 	video.play() // Запускаем воспроизведение
+	// Устанавливаем источник для видео
+	video.src = videoUrl
+	video.load() // Загружаем видео
+	video.play() // Запускаем воспроизведение
 
-// 	// Скрываем кнопку после нажатия
-// 	this.style.display = 'none'
-// })
+	// Скрываем кнопку после нажатия
+	this.style.display = 'none'
+})
